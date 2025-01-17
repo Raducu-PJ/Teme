@@ -40,11 +40,11 @@ public class Main {
 
         Map<Integer,Carte> map=new HashMap<Integer,Carte>();
 
-        map.put(1,new Carte("Homo Deus: A Brief History of Tomorrow","Yuval Noah Harari",2015));
-        map.put(2,new Carte("To Kill a Mockingbird","Harper Lee",2018));
-        map.put(3,new Carte("Brave New World","Aldous Huxley",2011));
-        map.put(4,new Carte("Homo Deus: A Brief History of Tomorrow","Paulo Coelho",2013));
-        map.put(5,new Carte("The Alchemist","Paulo Coelho",2020));
+        map.put(1,new Carte("Plansul lui Nitzsche","Irvin Yalom",1992));
+        map.put(2,new Carte("De veghe in lanul de secara","J.D. SALINGER",1951));
+        map.put(3,new Carte("Mitul lui Camus","Albert Camus",1942));
+        map.put(4,new Carte("Scurta istorie a omenirii","Yuval Noah Harari",2011));
+        map.put(5,new Carte("Homo deus - Scurta istorie a viitorului",Yuval Noah Harari,2015));
 
         scriere(map);
 
