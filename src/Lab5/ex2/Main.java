@@ -40,9 +40,9 @@ public class Main {
     public static void main(String[] args) {
 
         List<Placi> p=new ArrayList<>();
-        p.add(new Placi("placa1",200,60,Orientare.LUNGIME,new boolean[]{true,true,true,true},70));
-        p.add(new Placi("placa2",220,150,Orientare.LATIME,new boolean[]{true,true,false,true},500));
-        p.add(new Placi("placa3",250,100,Orientare.LUNGIME,new boolean[]{true,true,true,true},170));
+        p.add(new Placi("placa1",300,20,Orientare.LUNGIME,new boolean[]{true,true,true,true},90));
+        p.add(new Placi("placa2",220,250,Orientare.LATIME,new boolean[]{true,true,true,true},700));
+        p.add(new Placi("placa3",300,100,Orientare.LUNGIME,new boolean[]{true,true,true,true},20));
         List<Mobilier> m=new ArrayList<>();
         m.add(new Mobilier("mobilier1",p));
         m.add(new Mobilier("mobilier2",p));
