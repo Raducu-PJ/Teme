@@ -1,0 +1,31 @@
+[ {
+  "numele" : "Mircea",
+  "postul" : "Cleaner",
+  "data_angajarii" : [ 2024, 1, 1 ],
+  "salariul" : 2000.0
+}, {
+  "numele" : "Maria",
+  "postul" : "Secretara",
+  "data_angajarii" : [ 2015, 2, 2 ],
+  "salariul" : 3500.0
+}, {
+  "numele" : "Iancu",
+  "postul" : "Bodyguard",
+  "data_angajarii" : [ 2018, 3, 3 ],
+  "salariul" : 2000.0
+}, {
+  "numele" : "Feker",
+  "postul" : "Director",
+  "data_angajarii" : [ 2019, 4, 4 ],
+  "salariul" : 12000.0
+}, {
+  "numele" : "Cosmin",
+  "postul" : "Barman",
+  "data_angajarii" : [ 2020, 5, 5 ],
+  "salariul" : 8000.0
+}, {
+  "numele" : "Vernicescu",
+  "postul" : "Hypeman",
+  "data_angajarii" : [ 2021, 6, 6 ],
+  "salariul" : 7000.0
+}]
