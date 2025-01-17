@@ -19,7 +19,7 @@ public class Main {
             ObjectMapper mapper=new ObjectMapper();
             mapper.registerModule(new JavaTimeModule());
             mapper.enable(SerializationFeature.INDENT_OUTPUT);
-            File file=new File("src/main/resources/Lab6/angajati.json");
+            File file=new File("C:\ss\Lab6\src\angajati.json");
             mapper.writeValue(file,lista);
         } catch (IOException e) {
             e.printStackTrace();
@@ -27,7 +27,7 @@ public class Main {
     }
     public static List<Angajat> citire() {
         try {
-            File file=new File("src/main/resources/Lab6/angajati.json");
+            File file=new File("C:\ss\Lab6\src\angajati.json");
             ObjectMapper mapper=new ObjectMapper();
             mapper.registerModule(new JavaTimeModule());
             List<Angajat> persoane = mapper
@@ -42,13 +42,13 @@ public class Main {
     public static void main(String[] args) {
 
         List<Angajat>a=new ArrayList<>();
-        a.add(new Angajat("Ion","Sef", LocalDate.parse("2023-04-01"),2000));
-        a.add(new Angajat("Maria","Contabil", LocalDate.parse("2015-12-01"),1500));
-        a.add(new Angajat("Vasile","Programator", LocalDate.parse("2018-12-01"),3000));
-        a.add(new Angajat("Mexic","Director", LocalDate.parse("2019-04-01"),5000));
-        a.add(new Angajat("Cosmin","IT", LocalDate.parse("2020-04-01"),4000));
-        a.add(new Angajat("Paul","Sef", LocalDate.parse("2021-04-01"),2500));
-        a.add(new Angajat("Flavian","Sef", LocalDate.parse("2021-04-01"),2500));
+        a.add(new Angajat("Mircea","Cleaner", LocalDate.parse("2023-01-01"),2000));
+        a.add(new Angajat("Maria","Secretara", LocalDate.parse("2015-02-02"),1500));
+        a.add(new Angajat("Iancu","Bodyguard", LocalDate.parse("2018-03-03"),3000));
+        a.add(new Angajat("Feker","Director", LocalDate.parse("2019-04-04"),5000));
+        a.add(new Angajat("Cosmin","Barman", LocalDate.parse("2020-05-05"),4000));
+        a.add(new Angajat("Vernicescu","Hypeman", LocalDate.parse("2021-06-06"),2500));
+       
         scriere(a);
 
         List<Angajat> Angajati=citire();
@@ -128,10 +128,10 @@ public class Main {
 
                     break;
                 case 9:
-                    if(Angajati.stream().anyMatch(p->p.getNumele().equals("Ion")))
-                        System.out.println("Firma are cel puțin un Ion angajat");
+                    if(Angajati.stream().anyMatch(p->p.getNumele().equals("Mircea")))
+                        System.out.println("Firma are cel puțin un Mircea angajat");
                     else
-                        System.out.println("Firma nu are nici un Ion angajat");
+                        System.out.println("Firma nu are nici un Mircea angajat");
                     break;
                 case 10:
                     System.out.println("Numarul de angajati angajati vara anului precedent: "+Angajati.stream()
