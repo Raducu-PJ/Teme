@@ -35,11 +35,6 @@ public class Main {
     }
     public static void main(String[] args) {
 
-//        List<PerecheNumere> p=new ArrayList<>();
-//        p.add(new PerecheNumere(1,2));
-//        p.add(new PerecheNumere(3,4));
-//        p.add(new PerecheNumere(5,6));
-//        scriere(p);
 
         List<PerecheNumere> p2=citire();
         p2.forEach(System.out::println);
